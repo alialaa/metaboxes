@@ -1,0 +1,35 @@
+{
+  "name": "metaboxes",
+  "theme": "firsttheme",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "start": "gulp",
+    "build": "gulp build --prod",
+    "bundle": "gulp bundle --prod"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-loader": "^7.1.4",
+    "babel-preset-env": "^1.6.1",
+    "babel-register": "^6.26.0",
+    "del": "^3.0.0",
+    "gulp": "^4.0.0",
+    "gulp-clean-css": "^3.9.4",
+    "gulp-if": "^2.0.2",
+    "gulp-imagemin": "^4.1.0",
+    "gulp-replace": "^0.6.1",
+    "gulp-sass": "^4.0.1",
+    "gulp-sourcemaps": "^2.6.4",
+    "gulp-uglify": "^3.0.0",
+    "gulp-zip": "^4.1.0",
+    "vinyl-named": "^1.1.0",
+    "webpack-stream": "^4.0.3",
+    "yargs": "^11.0.0"
+  }
+}
